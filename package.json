@@ -19,10 +19,11 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "contentlayer2 build && next build",
+    "build": "contentlayer2 build && node scripts/validate-search-index.mjs && next build",
     "start": "next start",
     "lint": "next lint",
     "build:content": "contentlayer2 build",
+    "validate:search-index": "node scripts/validate-search-index.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky",
