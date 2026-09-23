@@ -28,6 +28,8 @@
     "prepare": "husky",
     "test": "echo \"No tests configured\" && exit 0",
     "test:unit": "vitest run",
+    "test:generate-cli-docs": "node scripts/generate-cli-docs.test.cjs",
+    "generate:cli-docs": "npx nextellar --help | node scripts/generate-cli-docs.cjs --output docs/cli/commands.mdx",
     "validate:sidebar": "node scripts/validate-sidebar.cjs",
     "check:links": "node scripts/check-links.cjs"
   },
