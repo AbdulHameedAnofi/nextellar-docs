@@ -51,6 +51,10 @@ export const sidebarNav: SidebarSection[] = [
       { title: 'Installation', href: '/docs/getting-started/installation' },
       { title: 'Quick Start', href: '/docs/getting-started/quick-start' },
       {
+        title: 'Project Structure',
+        href: '/docs/getting-started/project-structure',
+      },
+      {
         title: 'Contracts Quick Start',
         href: '/docs/getting-started/contracts-quick-start',
       },
@@ -76,6 +80,7 @@ export const sidebarNav: SidebarSection[] = [
       { title: 'Template Comparison', href: '/docs/cli/template-comparison' },
       { title: 'JavaScript DeFi Template', href: '/docs/cli/js-defi' },
       { title: 'Clean Build Artifacts', href: '/docs/cli/clean' },
+      { title: 'Environment Variables Reference', href: '/docs/cli/env-vars-reference' },
     ],
   },
 
@@ -131,6 +136,10 @@ export const sidebarNav: SidebarSection[] = [
         href: '/docs/guides/cross-contract-calls',
       },
       {
+        title: 'Soroban Guides Index',
+        href: '/docs/guides/soroban-index',
+      },
+      {
         title: 'Hook Error Handling',
         href: '/docs/guides/hook-error-handling',
       },
@@ -141,6 +150,18 @@ export const sidebarNav: SidebarSection[] = [
       {
         title: 'Custom Hook Authoring',
         href: '/docs/guides/custom-hook-authoring-playbook',
+      },
+      {
+        title: 'Adding & Authoring Custom Hooks',
+        href: '/docs/guides/custom-hook-with-add',
+      },
+      {
+        title: 'Using Custom Endpoints',
+        href: '/docs/guides/custom-endpoints',
+      },
+      {
+        title: 'Package Managers & Lockfiles',
+        href: '/docs/guides/package-managers-and-lockfiles',
       },
       {
         title: 'Optimizing Transaction Sizes',
@@ -208,7 +229,7 @@ export const sidebarNav: SidebarSection[] = [
     icon: <Component className="h-5 w-5" />,
     defaultOpen: false,
     pages: [
-      { title: 'API Reference', href: '/docs/hooks/api-reference' },
+      { title: 'Hooks Cookbook', href: '/docs/hooks/cookbook' },
       { title: 'useStellarWallet', href: '/docs/hooks/use-stellar-wallet' },
       { title: 'useStellarBalances', href: '/docs/hooks/use-stellar-balances' },
       { title: 'useStellarPayment', href: '/docs/hooks/use-stellar-payment' },
