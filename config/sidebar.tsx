@@ -51,6 +51,10 @@ export const sidebarNav: SidebarSection[] = [
       { title: 'Installation', href: '/docs/getting-started/installation' },
       { title: 'Quick Start', href: '/docs/getting-started/quick-start' },
       {
+        title: 'Project Structure',
+        href: '/docs/getting-started/project-structure',
+      },
+      {
         title: 'Contracts Quick Start',
         href: '/docs/getting-started/contracts-quick-start',
       },
@@ -120,6 +124,10 @@ export const sidebarNav: SidebarSection[] = [
       {
         title: 'Cross-Contract Calls',
         href: '/docs/guides/cross-contract-calls',
+      },
+      {
+        title: 'Soroban Guides Index',
+        href: '/docs/guides/soroban-index',
       },
       {
         title: 'Hook Error Handling',
@@ -199,6 +207,7 @@ export const sidebarNav: SidebarSection[] = [
     icon: <Component className="h-5 w-5" />,
     defaultOpen: false,
     pages: [
+      { title: 'Hooks Cookbook', href: '/docs/hooks/cookbook' },
       { title: 'useStellarWallet', href: '/docs/hooks/use-stellar-wallet' },
       { title: 'useStellarBalances', href: '/docs/hooks/use-stellar-balances' },
       { title: 'useStellarPayment', href: '/docs/hooks/use-stellar-payment' },
