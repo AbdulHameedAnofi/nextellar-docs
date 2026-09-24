@@ -75,6 +75,7 @@ export const sidebarNav: SidebarSection[] = [
       { title: 'Template Comparison', href: '/docs/cli/template-comparison' },
       { title: 'JavaScript DeFi Template', href: '/docs/cli/js-defi' },
       { title: 'Clean Build Artifacts', href: '/docs/cli/clean' },
+      { title: 'Environment Variables Reference', href: '/docs/cli/env-vars-reference' },
     ],
   },
 
@@ -132,6 +133,18 @@ export const sidebarNav: SidebarSection[] = [
       {
         title: 'Custom Hook Authoring',
         href: '/docs/guides/custom-hook-authoring-playbook',
+      },
+      {
+        title: 'Adding & Authoring Custom Hooks',
+        href: '/docs/guides/custom-hook-with-add',
+      },
+      {
+        title: 'Using Custom Endpoints',
+        href: '/docs/guides/custom-endpoints',
+      },
+      {
+        title: 'Package Managers & Lockfiles',
+        href: '/docs/guides/package-managers-and-lockfiles',
       },
       {
         title: 'Optimizing Transaction Sizes',
